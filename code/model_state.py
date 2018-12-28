@@ -7,7 +7,7 @@ AUTH_KEY = os.environ.get('NANONETS_API_KEY')
 MODEL_ID = os.environ.get('NANONETS_MODEL_ID')
 
 def get_model(model_id):
-    url = BASE_URL + "Model/%s"%(model_id)
+    url = BASE_URL + "Model/?modelId=%s"%(model_id)
     response = requests.request('GET', url, auth=requests.auth.HTTPBasicAuth(AUTH_KEY,''))
     res =  json.loads(response.text)
     state, status  = res['state'], res['status']
