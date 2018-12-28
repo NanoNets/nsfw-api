@@ -39,13 +39,13 @@ Few integration code samples are provided below.
 
 #### curl
 
-```
+```bash
 curl --request POST --url 'https://app.nanonets.com/api/v2/ImageCategorization/LabelUrls/' --header 'accept: application/x-www-form-urlencoded' -d 'modelId=7390a500-9fe1-483b-8123-750b96fc660c&urls=https://goo.gl/ICoiHc' -u '-REPLCAE_YOUR_API_KEY:'
 ```
 
 #### python
 
-```
+```python
 #REPLACE YOUR API KEY
  
 import requests
@@ -66,7 +66,7 @@ print(response.text)
 
 #### node
 
-```
+```javascript
 var request = require("request");
   
 var options = { method: 'POST',
