@@ -29,6 +29,10 @@ Following are the image categories we classify into NSFW categories.
 
 ### Query pretrained model.
 
+You can query our pretrained model which should work for most use cases. If you want to build your own custom model tailored to your use case, skip ahead to the next section.
+
+Few integration code samples are provided below.
+
 ## Model ID : 7390a500-9fe1-483b-8123-750b96fc660
 
 * Get your API key by signing up on app.nanonets.com
