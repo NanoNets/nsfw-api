@@ -89,8 +89,6 @@ request(options, function (error, response,body) {
 
 ## Train your own NSFW model
 
-
-# Build an Classifier for Natural Scene
  
 ### Step 1: Clone the Repo
 ```bash
@@ -119,7 +117,7 @@ export NANONETS_MODEL_ID=YOUR_MODEL_ID
  >_**Note:** you will get YOUR_MODEL_ID from the previous step
 
 ### Step 6: Upload the Training Data
-The training data is found in ```images``` (image files) and ```annotations``` (annotations for the image files)
+The training data is found in ```data```
 ```bash
 python ./code/upload_training.py
 ```
@@ -144,7 +142,7 @@ python ./code/prediction.py PATH_TO_YOUR_IMAGE.jpg
 
 **Sample Usage:**
 ```bash
-python ./code/prediction.py ./multilabel_data/ImageSets/2795.jpg
+python ./code/prediction.py ./data/nsfw/2795.jpg
 ```
 
 
