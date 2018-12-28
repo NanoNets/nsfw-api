@@ -2,11 +2,11 @@ import requests
 import json
 import os
 
-BASE_URL = 'http://app.nanonets.com/api/v2/MultiLabelClassification/'
+BASE_URL = 'http://app.nanonets.com/api/v2/ImageCategorization/'
 AUTH_KEY = os.environ.get('NANONETS_API_KEY')
 
 
-categories = ["desert", "mountains", "sea", "sunset", "trees"]
+categories = ["nsfw", "sfw"]
 ext = ['.jpeg', '.jpg', ".JPG", ".JPEG"]
 
 
