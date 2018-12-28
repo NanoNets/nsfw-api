@@ -35,7 +35,7 @@ Few integration code samples are provided below.
 
 ## Model ID : 7390a500-9fe1-483b-8123-750b96fc660
 
-* Get your API key by signing up on app.nanonets.com
+* Get your API key by signing up on <a href="app.nanonets.com">app.nanonets.com</a>
 
 #### curl
 
