@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-BASE_URL = 'http://app.nanonets.com/api/v2/MultiLabelClassification/'
+BASE_URL = 'http://app.nanonets.com/api/v2/ImageCategorization/'
 AUTH_KEY = os.environ.get('NANONETS_API_KEY')
 MODEL_ID = os.environ.get('NANONETS_MODEL_ID')
 
