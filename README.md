@@ -29,6 +29,8 @@ Following are the image categories we classify into NSFW categories.
 
 ### Query pretrained model.
 
+## Model ID : 7390a500-9fe1-483b-8123-750b96fc660
+
 * Get your API key by signing up on app.nanonets.com
 
 #### curl
